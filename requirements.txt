@@ -1,4 +1,7 @@
 fastapi>=0.110
 uvicorn[standard]>=0.29
 SQLAlchemy>=2.0
+# SQLAlchemy 2.1+ uses psycopg (v3) as the default postgresql:// driver:
+psycopg[binary]>=3.1
+# psycopg2 is still used by tests to bootstrap the ephemeral test database:
 psycopg2-binary>=2.9
