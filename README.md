@@ -1,5 +1,7 @@
 # simulation-job-runner
 
+[![CI](https://github.com/Harshitha-Chowdary9/simulation-job-runner/actions/workflows/ci.yml/badge.svg)](https://github.com/Harshitha-Chowdary9/simulation-job-runner/actions/workflows/ci.yml)
+
 A small Python backend for submitting and running simulation jobs: a FastAPI
 REST service, PostgreSQL persistence, and workers that execute multi-step
 **durable workflows** - the same shape as a real simulation platform's
